@@ -9,7 +9,7 @@ class Slide2 extends React.Component {
   render(){
     return(
       <div className="slide2">
-        <img className="pic2" src={require('./tjChampion.jpg')} />
+        <img className="pic2" src={require('./huge.jpg')} />
       </div>
     );
   }
