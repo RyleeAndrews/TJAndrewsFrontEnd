@@ -10,7 +10,7 @@ class Footer extends React.Component {
   render(){
     return(
       <div className="foot">
-        Website made by Rylee Andrews copyright@2018
+        <p className='words'>Website made by Rylee Andrews copyright@2018 </p>
       </div>
     );
   }
