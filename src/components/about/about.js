@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../header/header.js';
 import Footer from '../footer/footer.js';
+import Slider from './slider.js';
 import './about.scss';
 
 class About extends React.Component {
@@ -41,6 +42,7 @@ September 16th, Flyboard World Cup 2016, Naples Florida: 6th place
     Due to the mishaps at the Flyboard World Cup 2015 in Dubai, the judges pre qualified me for the World Cup 2016 in Naples Florida. I placed 10th in the qualification round putting me into a tough bracket to work through. I battled my way into the top 8 feeling very strong. I then had to compete with the two time consecutive world champion, which I narrowly lost to and who won it again, but I was overly excited to have ended up placing 6th in the world! I received a sponsorship from Zapata Racing, the inventor and manufacturer of the Flyboard.  Being a professional Flyboarder in Montana isn&#39t easy! Because of weather conditions, I only have approximately three months of available flying time during the summer so I must devote every bit of spare time that I have to train and achieve my goal of being the Number One Flyboarder in the world! That came true at the World Hydroflight Championships in 2017. I placed 2nd and 3rd at the Prowatercross National Tour and took 1st at the World Hydroflight Championships naming me number 1 overall! I want to defend my title and keep pushing the sport for 2018!
           </p>
         </div>
+        <Slider/>
         <Footer/>
       </div>
     );

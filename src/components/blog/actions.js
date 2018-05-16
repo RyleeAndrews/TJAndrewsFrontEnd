@@ -3,7 +3,7 @@ import cookie from 'react-cookies';
 
 
 let __API_URL__ = process.env.API_URL;
-let API = 'https://tjandrews.herokuapp.com/';
+let API = 'http://localhost:3000/api/:model';
 
 const create = blog => ({
   type: 'CREATE',

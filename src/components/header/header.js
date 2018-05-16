@@ -20,18 +20,6 @@ class Header extends React.Component {
           </Link>
         </div>
         <div className="dropdown">
-          <button className="dropbtn">Blog</button>
-          <div className="dropdown-content">
-            <Link to="/blog/new-post">New post</Link>
-          </div>
-        </div>
-        <div className="dropdown">
-          <button className="dropbtn">Projects</button>
-          <div className="dropdown-content">
-            <Link to="/reactprojects">React Projects</Link>
-          </div>
-        </div>
-        <div className="dropdown">
           <Link to="/about">
             <button className="dropbtn">About</button>
           </Link>
