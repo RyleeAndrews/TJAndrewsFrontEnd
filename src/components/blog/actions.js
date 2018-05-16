@@ -3,7 +3,7 @@ import cookie from 'react-cookies';
 
 
 let __API_URL__ = process.env.API_URL;
-let API = 'http://localhost:3000/api/:model'
+let API = 'https://immense-reef-73503.herokuapp.com/api/model'
 
 const create = blog => ({
   type: 'CREATE',
