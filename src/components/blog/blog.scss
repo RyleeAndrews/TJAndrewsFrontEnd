@@ -6,6 +6,7 @@
   width: 33%;
   box-shadow: 8px 8px 0px rgba(38,37,38, 1);
   margin-right: 5%;
+  margin-bottom: 3%;
 }
 
 .blogP1 {
@@ -20,6 +21,7 @@
   float: left;
   margin-bottom: 10%;
   width: 100%;
+  box-shadow: 4px 4px 0px rgba(38,37,38, 1);
 }
 
 
@@ -28,7 +30,8 @@
   display: inline;
   width: 33%;
   box-shadow: 8px 8px 0px rgba(38,37,38, 1);
-  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 3%;
 }
 
 .blogP2 {
@@ -43,4 +46,75 @@
   float: right;
   margin-bottom: 10%;
   width: 100%;
+  box-shadow: 4px 4px 0px rgba(38,37,38, 1);
+}
+
+.title {
+  font-size: 2em;
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+.subTitle {
+  font-size: 1.4em;
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+}
+
+.date {
+  text-align: center;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  margin-bottom: 3%;
+}
+
+.blogP3 {
+  font-size: 1.4em;
+  font-family: 'Abel', sans-serif;
+  color: rgb(38,37,38);
+  font-weight: 600;
+  margin-left: 5%;
+}
+
+.blogB3 {
+  float: left;
+  margin-bottom: 10%;
+  width: 100%;
+  box-shadow: 4px 4px 0px rgba(38,37,38, 1);
+}
+
+.Vegas1 {
+  float: right;
+  display: inline;
+  width: 33%;
+  box-shadow: 8px 8px 0px rgba(38,37,38, 1);
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+.blogP4 {
+  font-size: 1.4em;
+  font-family: 'Abel', sans-serif;
+  color: rgb(38,37,38);
+  font-weight: 600;
+  margin-left: 45%;
+}
+
+.blogB4 {
+  float: right;
+  margin-bottom: 10%;
+  width: 100%;
+  box-shadow: 4px 4px 0px rgba(38,37,38, 1);
+}
+
+.vegasFriends {
+  float: left;
+  display: inline;
+  width: 33%;
+  box-shadow: 8px 8px 0px rgba(38,37,38, 1);
+  margin-left: 5%;
+  margin-bottom: 3%;
+
 }
