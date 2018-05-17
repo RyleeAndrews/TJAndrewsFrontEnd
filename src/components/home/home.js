@@ -2,8 +2,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import * as actions from '../blog/actions.js';
-import BlogForm from '../blog/blogForm.js';
-import BlogList from '../blog/blogList.js';
+import Blogs from '../blog/blogs.js';
 import HomeHeader from '../header/homeHeader.js';
 import Footer from '../footer/footer.js';
 import './home.scss';
@@ -17,7 +16,7 @@ class Dashboard extends React.Component {
   }
 
   render(){
-    console.log(this.props.blog.map( (pub) => pub.publicView));
+
 
     return(
       <React.Fragment>
@@ -26,11 +25,9 @@ class Dashboard extends React.Component {
 
         </div>
         <div className="blogs">
-          <BlogList blog={this.props.blog}/>
+          <Blogs/>
         </div>
-        <div className="footer">
-          <Footer/>
-        </div>
+      
 
       </React.Fragment>
     );

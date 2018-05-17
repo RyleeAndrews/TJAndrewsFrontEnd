@@ -19,9 +19,6 @@ class Dashboard extends React.Component {
         <div className="header">
           <Header/>
         </div>
-        <BlogForm blog={this.props.blog} create={this.props.createBlog}/>
-        <BlogList  blog={this.props.blog}/>
-        <Footer/>
       </React.Fragment>
     );
   }

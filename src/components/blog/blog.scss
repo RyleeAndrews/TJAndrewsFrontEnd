@@ -1,39 +1,46 @@
-ul {
-  list-style: none;
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+.naples {
+  float: right;
+  display: inline;
+  width: 33%;
+  box-shadow: 8px 8px 0px rgba(38,37,38, 1);
+  margin-right: 5%;
 }
 
-input {
-  display: block;
+.blogP1 {
+  font-size: 1.4em;
+  font-family: 'Abel', sans-serif;
+  color: rgb(38,37,38);
+  font-weight: 600;
+  margin-left: 5%;
 }
 
-textarea {
-  height: 200px;
-  width: 25%;
-  border: solid black .1em;
+.blogB1 {
+  float: left;
+  margin-bottom: 10%;
+  width: 100%;
 }
 
-.header {
-  margin-bottom: 100px;
+
+.ecuador {
+  float: left;
+  display: inline;
+  width: 33%;
+  box-shadow: 8px 8px 0px rgba(38,37,38, 1);
+  margin-right: 5%;
 }
 
-.title {
-  width: 25%;
-  border: solid black .1em;
-  height: 25px;
+.blogP2 {
+  font-size: 1.4em;
+  font-family: 'Abel', sans-serif;
+  color: rgb(38,37,38);
+  font-weight: 600;
+  margin-left: 45%;
 }
 
-.date {
-  font-size: 14px;
-}
-
-.author {
-  border: 1px solid black;
-}
-
-.content {
-  font-size: 18px;
-}
-
-.titleWords {
-  font-size: 35px;
+.blogB2 {
+  float: right;
+  margin-bottom: 10%;
+  width: 100%;
 }

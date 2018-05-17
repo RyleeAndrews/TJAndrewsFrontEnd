@@ -14,7 +14,7 @@ class HomeHeader extends React.Component {
     return(
 
       <div className="headerHome">
-        <img className="topPhoto" src={require('./trippyPhotos.jpg')}/>
+        <img className="topPhoto" src={require('./homeHeader.jpg')}/>
         <div className="header">
           <div className="dropdown">
             <Link to="/">
