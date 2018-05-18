@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Abel');
-
 .naples {
   float: right;
   display: inline;
@@ -116,5 +115,138 @@
   box-shadow: 8px 8px 0px rgba(38,37,38, 1);
   margin-left: 5%;
   margin-bottom: 3%;
+}
 
+.Vegas2 {
+  float: right;
+  display: inline;
+  width: 33%;
+  box-shadow: 8px 8px 0px rgba(38,37,38, 1);
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+.blogP5 {
+  font-size: 1.4em;
+  font-family: 'Abel', sans-serif;
+  color: rgb(38,37,38);
+  font-weight: 600;
+  margin-left: 5%;
+}
+
+.blogB5 {
+  float: left;
+  margin-bottom: 10%;
+  width: 100%;
+  box-shadow: 4px 4px 0px rgba(38,37,38, 1);
+}
+
+.Vegas3 {
+  float: left;
+  display: inline;
+  width: 33.7vw;
+  height: 34.9vh;
+  box-shadow: 8px 8px 0px rgba(38,37,38, 1);
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.blogP6 {
+  font-size: 1.4em;
+  font-family: 'Abel', sans-serif;
+  color: rgb(38,37,38);
+  font-weight: 600;
+  margin-left: 45%;
+}
+
+.blogB6 {
+  float: right;
+  margin-bottom: 10%;
+  width: 100%;
+  box-shadow: 4px 4px 0px rgba(38,37,38, 1);
+}
+
+.straya {
+  float: right;
+  display: inline;
+  width: 33%;
+  box-shadow: 8px 8px 0px rgba(38,37,38, 1);
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+.blogP7 {
+  font-size: 1.4em;
+  font-family: 'Abel', sans-serif;
+  color: rgb(38,37,38);
+  font-weight: 600;
+  margin-left: 5%;
+}
+
+.blogB7 {
+  float: left;
+  margin-bottom: 10%;
+  width: 100%;
+  box-shadow: 4px 4px 0px rgba(38,37,38, 1);
+}
+
+.straya2 {
+  float: left;
+  display: inline;
+  width: 33%;
+  box-shadow: 8px 8px 0px rgba(38,37,38, 1);
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+.blogP8 {
+  font-size: 1.4em;
+  font-family: 'Abel', sans-serif;
+  color: rgb(38,37,38);
+  font-weight: 600;
+  margin-left: 45%;
+}
+
+.blogB8 {
+  float: right;
+  margin-bottom: 10%;
+  width: 100%;
+  box-shadow: 4px 4px 0px rgba(38,37,38, 1);
+}
+
+@media only screen and (max-width: 960px) {
+  .Vegas3 {
+    float: left;
+    display: inline;
+    width: 35.5vw;
+    height: 27.6vh;
+    box-shadow: 8px 8px 0px rgba(38,37,38, 1);
+    margin-left: 5%;
+    margin-bottom: 3%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .Vegas3 {
+    float: left;
+    display: inline;
+    width: 35.9vw;
+    height: 21vh;
+    box-shadow: 8px 8px 0px rgba(38,37,38, 1);
+    margin-left: 5%;
+    margin-bottom: 3%;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .Vegas3 {
+    float: left;
+    display: inline;
+    width: 34vw;
+    height: 13.3vh;
+    box-shadow: 8px 8px 0px rgba(38,37,38, 1);
+    margin-left: 5%;
+    margin-bottom: 3%;
+  }
 }

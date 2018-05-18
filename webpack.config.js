@@ -59,6 +59,17 @@ module.exports = {
         loader: 'babel-loader',
       },
       {
+        test: /\.(mov|mp4)$/,
+        use: [
+          {
+          loader: 'file-loader',
+          options: {
+          name: '[name].[ext]'
+      }
+    }
+  ]
+},
+      {
         test: /\.(png|jpg|)$/,
         loader: 'url-loader',
       },
