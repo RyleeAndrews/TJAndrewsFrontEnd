@@ -13,7 +13,7 @@ class Blogs extends React.Component {
       <div>
         <div className="blogB8">
           <h3 className="title"> Australia </h3>
-          <h2 className="subTitle">Sanctuary Cove Gold Coast Australia</h2>
+          <h2 className="subTitle">Byron Bay, Australia</h2>
           <h1 className="date"> April 5th, 2018</h1>
           <img className="straya2" src={require('./straya2.jpg')} />
           <p className="blogP8">
@@ -28,7 +28,7 @@ class Blogs extends React.Component {
         </div>
         <div className="blogB7">
           <h3 className="title"> Australia </h3>
-          <h2 className="subTitle">Sanctuary Cove Gold Coast Australia</h2>
+          <h2 className="subTitle">Sanctuary Cove Gold Coast, Australia</h2>
           <h1 className="date"> April 2nd, 2018 </h1>
           <img className="straya" src={require('./australiaPool.jpg')} />
           <p className="blogP7">
