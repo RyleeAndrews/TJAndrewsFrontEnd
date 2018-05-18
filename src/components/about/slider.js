@@ -74,7 +74,6 @@ class Slider extends React.Component {
           <div>
             <Slide6 />
             <LeftArrow previousSlide={this.previousSlide}/>
-            <RightArrow nextSlide={this.nextSlide}/>
           </div>
           : null
         }

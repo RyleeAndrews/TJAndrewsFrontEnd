@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../footer/footer.js';
 import Vegas4 from './vegas4.mp4';
+import SliderHome from './sliderHome.js';
 import './blog.scss';
 class Blogs extends React.Component {
   constructor(props){
@@ -10,7 +11,7 @@ class Blogs extends React.Component {
   }
   render(){
     return(
-      <div>
+      <div className="main">
         <div className="blogB8">
           <h3 className="title"> Australia </h3>
           <h2 className="subTitle">Byron Bay, Australia</h2>
@@ -106,6 +107,8 @@ class Blogs extends React.Component {
           Although we where both extremely tired, we fought hard and in the end I came out on top with my first 1st place Championship win of my career!
           </p>
         </div>
+        <SliderHome/>
+        <Footer/>
       </div>
     );
   }
