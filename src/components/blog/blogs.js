@@ -41,7 +41,7 @@ class Blogs extends React.Component {
           <h3 className="title"> Vegas Trip 2</h3>
           <h2 className="subTitle">Las Vegas, NV</h2>
           <h1 className="date"> March 30th, 2018 </h1>
-          <iframe className="Vegas3" src={Vegas4} type="video/mp4"/>
+          <iframe className="Vegas3" allowFullScreen src={Vegas4} type="video/mp4"/>
           <p className="blogP6">
             After checking out Sean&#39;s ski last night we found what we didn&#39;t want to find. He broke a piece of his hull insert that unfortunately is on back order from BRP for two months!!!? Talk about a bum deal. At least I found the problem on my ski.
             I called up my dealer ship to ask what the part number was and they said that the part is only available from BRP which will take 5 days.
