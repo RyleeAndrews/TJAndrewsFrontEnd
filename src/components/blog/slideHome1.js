@@ -10,8 +10,8 @@ class SlideHome1 extends React.Component {
     return(
       <div className="slideHome1">
         <iframe className="vid1"
-          width="560" height="315" src="https://www.youtube.com/embed/wQv7AoJAg5A"
-          frameBorder="0" allow="autoplay; encrypted-media" allowFullscreen></iframe>
+          width="560" height="420" src="https://www.youtube.com/embed/wQv7AoJAg5A"
+          frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
       </div>
     );
   }

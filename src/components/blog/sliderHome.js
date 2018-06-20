@@ -1,5 +1,6 @@
 import React from 'react';
 import SlideHome1 from './slideHome1.js';
+import SlideHome2 from './slideHome2.js';
 import LeftArrow from './homeArrowLeft.js';
 import RightArrow from './homeArrowRight.js';
 import './blog.scss';
@@ -35,6 +36,13 @@ class SliderHome extends React.Component {
             <RightArrow nextSlide={this.nextSlide}/>
           </div>
           : null }
+          { this.state.slideCount === 2 ?
+            <div>
+              <SlideHome2 />
+              <RightArrow nextSlide={this.nextSlide}/>
+              <LeftArrow previousSlide={this.previousSlide}/>
+            </div>
+            : null }
       </div>
     );
   }
