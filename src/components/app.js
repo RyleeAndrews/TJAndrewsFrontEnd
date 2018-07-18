@@ -1,12 +1,12 @@
 
 import React from 'react';
 import {Route} from 'react-router-dom';
-import ReactProjects from './header/reactProjects.js';
 import Home from './home/home.js';
 import About from './about/about.js';
 import Contact from './contact/contact.js';
-
+import Sponsers from './contact/sponsers.js';
 import Blog from './blog/dashboard.js';
+import Gallery from './gallery/gallery.js';
 
 class App extends React.Component {
 
@@ -23,8 +23,8 @@ class App extends React.Component {
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
           <Route exact path='/contact' component={Contact} />
-          <Route exact path='/blog/new-post' component={Blog} />
-          <Route exact path='/reactprojects' component={ReactProjects} />
+          <Route exact path='/sponsers' component={Sponsers} />
+          <Route exact path='/gallery' component={Gallery} />
         </main>
       </React.Fragment>
     );

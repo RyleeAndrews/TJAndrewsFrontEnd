@@ -274,10 +274,21 @@
   .Vegas3 {
     float: left;
     display: inline;
-    width: 34vw;
-    height: 12.5vh;
+    width: 30.7%;
+    height: 11.5vh;
     box-shadow: 8px 8px 0px rgba(38,37,38, 1);
     margin-left: 5%;
     margin-bottom: 3%;
+  }
+
+@media only screen and (max-width: 375px){
+  .Vegas3 {
+    float: left;
+    display: inline;
+    width: 90%;
+    height: 27.3vh;
+    box-shadow: 8px 8px 0px rgba(38,37,38, 1);
+    margin-bottom: 5%;
+  }
   }
 }

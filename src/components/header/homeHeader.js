@@ -31,6 +31,16 @@ class HomeHeader extends React.Component {
               <button className="dropbtn">Contact</button>
             </Link>
           </div>
+          <div className="dropdown">
+            <Link to="/sponsers">
+              <button className="dropbtn">Sponsers</button>
+            </Link>
+          </div>
+          <div className="dropdown">
+            <Link to="/gallery">
+              <button className="dropbtn">Gallery</button>
+            </Link>
+          </div>
         </div>
       </div>
     );
