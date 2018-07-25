@@ -10,6 +10,13 @@ p {
 
 }
 
+.dropbtn:focus, .dropbtn:active, .dropbtn.active, .dropbtn:focus:active {
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 /* Dropdown Button */
 .dropbtn {
     height: 50px;

@@ -14,6 +14,16 @@ class Gallery extends React.Component {
         <Header/>
         <img className="gallery" src={require('./gallery1.jpg')} />
         <img className="gallery" src={require('./gallery4.jpg')} />
+        <img className="gallery" src={require('./gallery5.jpg')} />
+        <img className="gallery" src={require('./gallery6.jpg')} />
+        <img className="gallery" src={require('./gallery8.jpg')} />
+        <img className="gallery" src={require('./gallery9.jpg')} />
+        <img className="gallery" src={require('./gallery10.jpg')} />
+        <img className="gallery" src={require('./gallery11.jpg')} />
+        <img className="gallery" src={require('./gallery13.jpg')} />
+        <img className="gallery" src={require('./gallery14.jpg')} />
+        <img className="gallery" src={require('./gallery15.jpg')} />
+        <img className="gallery" src={require('./gallery16.jpg')} />
       </div>
     );
   }
